@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMSCE</title>
+	<link rel="stylesheet" href="addpost.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!----START OF NAVIGATION BAR---->
+<div class="navbar">
+
+	<a href="https://bmsce.ac.in/">
+		<img src="../assets/logo.png" id="logo">
+	</a>
+	<span id="site_name">Placement Experience</span><br>
+	<span id="subs">Ask . Answer . Learn .</span>
+	<!--ICONS--->
+	<button class="btn" id="home" onclick="window.open('../home/home.html','_self')"><i class="fa fa-home">Home</i></button>
+	<button class="btn" id="aboutus" onclick="window.open('../aboutus/aboutus.html','_self')"><i class="fa fa-none">About us</i></button>
+	<button class="btn" id="user" onclick="window.open('../profile/profile.html','_self')"><i class="fa fa-user">Profile</i></button>
+	<button class="btn" id="logout" onclick="window.open('../login/login.html','_self')"><i class="fa fa-sign-out"></i></button>
+</div>
+<!----END OF NAVIGATION BAR---->
+
+
+<!----START OF ADD POST------->
+<div class="addpost-container">
+<form>
+	<h2>Add Post</h2><hr>
+  	<div class="row">
+  		<label>Company:</label>
+  		<input type="text" name="company-name" placeholder="  Company Name" id="company-name">
+  	</div>
+  	<div class="row">
+  		<label>Role:</label>
+  		<input type="text" name="role" placeholder="  Your role" id="role">
+  	</div>
+  	<div class="row">
+  		<label>Job type:</label>
+        <input type="radio" name="job-type" id="INTERN">
+        <label for="INTERN">Internship</label><br>
+        <input type="radio" name="job-type" id="FULL-TIME">
+        <label for="FULL TIME">Full time</label>
+  	</div>
+  	<div class="row">
+  		<label>Where?:</label>
+        <input type="radio" name="where" id="on-campus">
+        <label for="on-campus">On Campus</label><br>
+        <input type="radio" name="where" id="off-campus">
+        <label for="off-campus">Off Campus</label>
+  	</div>
+  	<div class="row">
+  		<label>Description:</label>
+  	</div>
+  	<div class="row">
+  		<textarea name="descrption" style="width: 100%;height: 120px;" placeholder="  Write your expeirence" id="description"></textarea>
+  	</div>
+  	<div class="row">
+  		<button>Post</button>
+  	</div>
+  	
+
+<form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----START OF SIDE NAVBAR----->
+<div class="RightBox">
+<div class="sidenav">
+	<div class="sidebutton">
+		<a href="../profile/profile.html"><div class="nav-name">Profile</div></a>
+
+	</div>
+	<div class="sidebutton">
+		<a href="../addpost/addpost.html"><div class="nav-name">Add Post</div></a>
+	</div>
+	<div class="sidebutton">
+		<a href="../myposts/myposts.html"><div class="nav-name">My Posts</div></a>
+	</div>
+	<div class="sidebutton">
+		<a href="../browse/browse.html"><div class="nav-name">Browse</div></a>
+	</div>
+	<div class="sidebutton">
+		<a href="../login/login.html"><div class="nav-name">Sign out</div></a>
+	</div>
+</div>
+</div>
+<!---END OF SIDE NAVBAR----->
+</body>
+</html>
