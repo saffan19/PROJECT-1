@@ -36,17 +36,8 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault();
     errorElement.innerText = messages.join(', ');
   }
-  else{  
-    openHome();
-  }
-  
 
 
 })
-function openHome()
-{
-  window.open('../home/home.html');
-  
-}
 
 
