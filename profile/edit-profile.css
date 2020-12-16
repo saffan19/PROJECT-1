@@ -153,22 +153,31 @@ body{
 .form-container{
 	width: 450px;
 	background-color: white;
-	padding:10px 50px 10px 50px;
+	padding: 0;
 	position: absolute;
 	border-radius: 10px;
 	box-shadow: 0 0 20px 10px rgb(20,20,20,0.3);
 	top:90px;
 	left: 300px;
 }
+form{
+	padding:10px 50px 10px 50px;
+}
 .form-container h2{
 	text-align: center;
-	text-decoration: underline;
+	background-color: #233142;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 20px;
+	height: 30px;
+	padding-top: 5px;
 }
 
 .form-container .row{
 	display:block;
-	margin-top:15px;
-	margin-bottom:15px;  
+	margin-top:12px;
+	margin-bottom:12px;  
 
 }
 .form-container .row img{
@@ -190,16 +199,18 @@ body{
 	border-radius: 5px;
 	border-width: 1px;
 }
+
 .row button{
 	width:150px;
 	display: block;
 	margin: auto;
-	margin-top:5px;  
+	margin-top:10px;  
+	height: 25px;
 	border-radius: 5px;
 	border-width: 0;
 	color: white;
 	background-color:#f95959;
-	font-size: 1.05em;
+	font-size: 17px;
 }
 .row button:hover{
 	background-color: #455d7a;

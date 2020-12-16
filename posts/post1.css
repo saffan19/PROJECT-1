@@ -1,0 +1,281 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0;
+	font-family: helvetica;
+}
+body{
+	background-color: white;/*#e3e3e3;*/
+}
+a{
+	text-decoration: none;
+}
+/****START OF NAVBAR****/
+.navbar{
+	
+	height: 80px;/*90*/
+	background-color: #233142;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index:1;
+	box-shadow:0 0 10px 5px #888888;
+
+
+}
+#logo{
+	height: 70px;/*80*/
+	position: relative;
+	top: 5px;
+	left: 25px;
+}
+#site_name{
+	
+	position: absolute;
+	left: 115px;
+	font-size: 2.5em;
+	color: white;
+	padding: 0;
+	margin: 0;
+	top:10px;
+	
+}
+#subs{
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	left: 115px;
+	top:55px;
+}
+.btn{
+	position: absolute;
+	background-color:rgb(250,250,250,0.02);
+	color: white;
+	padding: 5px;
+	top:15px;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	box-shadow: 0;
+	height: 50px;
+	width: 90px;
+	border-width: 0 0 3px 0;
+	outline-style: none;
+}
+.btn:hover{
+	background-color: #8d93ab;
+}
+
+#home
+{
+	/*left: 825px;*/
+	right: 400px;
+}
+#aboutus
+{
+	/*left: 925px;*/
+	right: 280px;
+}
+#user
+{
+	/*left: 1025px;*/
+	right: 160px;
+}
+#logout
+{
+	/*left: 1125px;*/
+	right: 40px;
+}
+
+/*****END OF NAVBAR******/
+
+
+
+
+/*****START OF SIDE NAVBAR****/
+
+.sidenav
+{
+	position: absolute;
+	width: 250px;
+	height: 450px;
+	top:110px;
+	right: 0px;/*left:1100*/ 
+	background-color: #233142;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow:0 0 15px 3px #888888;
+    /*box-shadow:0 0 2px 2px #888888;*/
+}
+
+.sidebutton
+{
+	position: relative;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	background-color:#f95959;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+/*	box-shadow:0 0 2px 2px #888888;*/
+}
+.sidebutton:hover
+{
+	background-color:rgb(0,0,0,0.4);/*#8d93ab;*/
+	width: 210px;
+
+}
+.nav-name
+{
+	padding-top:7px;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.LeftBox{
+	margin-top: 80px;/*90px;*/
+	margin-left: 150px;/*50px;*/
+	float:left;
+	width:60%;
+
+}
+
+.RightBox{
+	float: right;
+	width: 40%;
+}
+/****END OF SIDE NAV******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:white;
+	overflow: hidden;
+  }
+  .top{
+	  margin-top:70px ;
+	  margin-left:200px;
+  }
+  .myposts-container{
+	  margin-right: 270px;
+  }
+  .card {
+	width: 100%;
+	display: grid;
+	float: left;
+	margin-top:20px;
+	grid-template-columns: 600px;
+	grid-template-rows: 0px 345px 60px;
+	grid-template-areas: "image""text" "stats";
+	border-radius: 18px;
+	padding: 0px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	font-family: roboto;
+	text-align: center;
+	transition: 0.5s ease;
+	cursor: pointer;
+	
+  }
+  .card h2{
+		width: 100% ;
+		height: 40px;
+		padding-top: 5px;
+		border-top-left-radius: 18px;
+		color: white;
+		border-top-right-radius: 18px;
+		background-color: #233142;
+
+  }
+  /*.card-image {
+	grid-area: image;
+	background: url("atlassin2.png");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+  }*/
+  
+  .card-text {
+	grid-area: text;
+	margin: 25px;
+	margin-top:45px ;
+  }
+  .card-text table{
+	  margin: auto;
+	  text-align: left;
+  }
+  .card-text .date {
+	color: rgb(255, 7, 110);
+	font-size:13px;
+  }
+  td{
+	  padding-left: 20px;
+  }
+  .card-text p {
+	margin-top: 5px;
+	color: grey;
+	font-size:15px;
+	font-weight: 300;
+  }
+  .card-text h2 {
+	margin-top:0px;
+	font-size:20px;
+  }
+  .card-stats {
+	grid-area: stats; 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: #233142;
+  }
+  .card-stats .stat {
+	padding:10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+  }
+  .card-stats .border {
+	border-left: 1px solid rgb(233, 230, 231);
+	border-right: 1px solid rgb(233, 230, 231);
+  }
+  .card-stats .value{
+	font-size:22px;
+	font-weight: 500;
+  }
+  .card-stats .value sup{
+	font-size:12px;
+  }
+  .card-stats .type{
+	font-size:11px;
+	font-weight: 300;
+	text-transform: uppercase;
+  }
+  .card:hover {
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
