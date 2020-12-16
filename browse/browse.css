@@ -167,7 +167,8 @@ body{
 
 
 .row1::-webkit-scrollbar{
-    width: 0;
+	width: 0;
+	
 }
 
 .heading{
@@ -204,8 +205,9 @@ body{
   .item-header {
     text-align: center;
     padding: 20px 10px;
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-    color: #fff;
+   /* background: linear-gradient(to right, #ff416c, #ff4b2b);*/
+	color: #fff;
+	background-color: #233142;
   }
   
 .item-body {

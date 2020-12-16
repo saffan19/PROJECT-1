@@ -150,39 +150,56 @@ body{
 
 /****PROFILE-STARTS*******/
 
-table{
+.profile-container{
 	position: absolute;
 	background-color: white;
 	border-radius: 10px;
 	border-spacing: 10px;
 	box-shadow: 0 0 20px 10px rgb(20,20,20,0.3);
-	padding: 10px 30px 10px 30px;
-	top:90px;
+	paddi
+	ng: 0;
+	top:120px;
 	left:300px;
 	width: 450px;
+
 }
+table{
+	width: 100%;
+	padding: 15px 30px 30px 30px;
+}
+
 h2{
 	display: block;
 	margin: auto;
 	text-align: center;
-	text-decoration:underline;
+	height: 35px;
+	padding-top: 5px;
+	background-color: #233142;
+	color: white;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
 }
 #user-name{
 	text-align: center;
 	font-size: 1.3em;
 	font-weight: bold;
+	
 }
 table img{
 	width: 100px;
 	display: block;
 	margin: auto;
+	margin-bottom: 5px;
 }
 table tr{
-	background-color: white;
+	background-color: white;	
 }
+
 td{
 	text-align: left;
 }
+
 td button{
 	width: 150px;
 	display: block;
@@ -191,10 +208,12 @@ td button{
 	color: white;
 	border-radius: 5px;
 	border-width: 0;
-	font-size: 1.05em;
+	font-size: 17px;
+	margin-top: 30px;
+	height: 25px;
 }
 td button:hover{
-	background-color: #455d7a;
+	background-color:#233142;
 }
 /***PROFILE-END*********/
 

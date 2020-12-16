@@ -45,7 +45,8 @@ form.addEventListener('submit',(e)=>{
 })
 function openHome()
 {
-  window.open('../home/home.html')
+  window.open('../home/home.html');
+  
 }
 
 

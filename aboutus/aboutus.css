@@ -152,19 +152,30 @@ a{
 
 /****START OF ABOUT US****/
 .aboutus-container{
-	height: 400px;
+	height: 300px;
 	width:900px;
 	position: absolute;
-	top:110px;
+	top:150px;/*110px;*/
 	left: 30px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px 5px rgb(50,50,50,0.5);
-	padding: 15px;
+
+
 }
 
 .aboutus-container h1{
 	text-align: center;
+	background-color: #233142;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .aboutus-container h2{
-	padding-top: 50px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+.textcont{
+	padding: 25px;
+	padding-left: 20px;
+	padding-right: 20px ;
 }
