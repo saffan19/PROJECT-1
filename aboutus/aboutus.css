@@ -59,6 +59,7 @@ a{
 	height: 50px;
 	width: 90px;
 	border-width: 0 0 3px 0;
+	outline-style: none;
 }
 .btn:hover{
 	background-color: #8d93ab;
@@ -151,7 +152,7 @@ a{
 
 /****START OF ABOUT US****/
 .aboutus-container{
-	height: 200px;
+	height: 400px;
 	width:900px;
 	position: absolute;
 	top:110px;
@@ -159,4 +160,11 @@ a{
 	border-radius: 10px;
 	box-shadow: 0 0 10px 5px rgb(50,50,50,0.5);
 	padding: 15px;
+}
+
+.aboutus-container h1{
+	text-align: center;
+}
+.aboutus-container h2{
+	padding-top: 50px;
 }

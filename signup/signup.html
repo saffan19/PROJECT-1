@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
     
 </head>
 <body>
@@ -15,7 +15,7 @@
 
     <div class="form" id="form" action="/" method="GET">
         <h2>Placement Experience</h2><hr>
-    <p id="login-title">Login</p>
+    <p id="login-title">Sign-Up</p>
 
     <form >
 
@@ -28,16 +28,22 @@
             <label for="password"></label>
             <input type="password" name="password" placeholder="Password" id="password" required>
         </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" name="password" placeholder="Confirm Password" id="cpassword" required>
+        </div>
         <div id="error"></div>
         <div id="success"></div>
-        <button type="submit" name="login-button" class="button" value="Login" >LOGIN</button>
-        <p class="message">Not registered? <a href="../signup/signup.html">Create an account</a></p>
+
+        <button type="submit" name="login-button" class="button" value="Login">SIGNUP</button>
+        <p class="message">Have an acoount? <a href="../login/login.html">Login</a></p>
+        
 
 
     </form>
     </div>
 
 </div>
-<script defer src="login.js"></script>
+<script defer src="signup.js"></script>
 </body>
 </html>

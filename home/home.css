@@ -62,10 +62,13 @@ a{
 	height: 50px;
 	width: 90px;
 	border-width: 0 0 3px 0;
+	outline-style: none;
 }
 .btn:hover{
 	background-color: #8d93ab;
 }
+
+
 #home
 {
 	/*left: 825px;*/
