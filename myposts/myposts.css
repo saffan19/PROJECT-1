@@ -99,7 +99,7 @@ a{
 	height: 450px;
 	top:110px;
 	right: 0px;/*left:1100*/ 
-	background-color: #455d7a;
+	background-color: #233142;
 	border-radius: 10px;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
@@ -234,7 +234,7 @@ body {
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background: rgb(100, 94, 94);
+	background: #233142;/*rgb(100, 94, 94);*/
   }
   .card-stats .stat {
 	padding:10px;
@@ -278,7 +278,7 @@ body {
 	border-right: 1px solid rgb(233, 230, 231);
   }
   .card-stats.card2 {
-	background: rgb(100, 94, 94);
+	background: #233142;/*rgb(100, 94, 94);*/
   }
   
   
@@ -296,6 +296,6 @@ body {
 	border-right: 1px solid rgb(233, 230, 231);
   }
   .card-stats.card3 {
-	background: rgb(100, 94, 94);
+	background: #233142;/*rgb(100, 94, 94);*/
   }
 
